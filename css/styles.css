@@ -1,0 +1,60 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #162535;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  padding: 20px;
+  background-color: #d9556b;
+  color: #fff;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  color: white;
+}
+
+input[type='text'] {
+  padding: 10px;
+  width: 200px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: lightblue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: lightblue;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 200px;
+}
+
+.search-container div {
+  padding-inline: 20px;
+}
+
+.header-title {
+  display: flex;
+  justify-content: center;
+}
+
+.header-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
